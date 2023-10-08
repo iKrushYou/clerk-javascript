@@ -1,5 +1,5 @@
 import { __internal__setErrorThrowerOptions, ClerkProvider as ReactClerkProvider } from '@clerk/clerk-react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 
 import { ClerkNextOptionsProvider } from '../client-boundary/NextOptionsContext';
